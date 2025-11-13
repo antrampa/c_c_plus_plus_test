@@ -1,4 +1,4 @@
-Test applications with C and C++ (C\C++) just for fun! 
+Test applications with C and C++ (C/C++) just for fun! 
 
 
 
