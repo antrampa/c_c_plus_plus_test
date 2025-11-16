@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Win32 App",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "main.cpp",
+                "-o",
+                "Win32TestApp.exe",
+                "-mwindows"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

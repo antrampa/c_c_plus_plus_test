@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Win32 App",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Win32TestApp.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "externalTerminal",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe"
+        }
+    ]
+}
